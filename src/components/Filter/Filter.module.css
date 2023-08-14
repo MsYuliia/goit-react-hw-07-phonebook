@@ -1,0 +1,31 @@
+.filterTitle {
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 500;
+  color: #effef7;
+  text-shadow: 0px 1px 6px rgba(46, 47, 66, 1);
+
+  margin-bottom: 15px;
+}
+
+.filterInput {
+  width: 450px;
+  height: 22px;
+  border: 1px solid #3f87a6;
+  border-radius: 4px;
+  transition: outline-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+
+  font-size: 16px;
+  color: #3f87a6;
+
+  padding-left: 15px;
+  margin-bottom: 25px;
+}
+
+.filterInput:focus {
+  outline-style: double;
+  outline-color: #3f87a6;
+  box-shadow: 0px 1px 6px #3f87a6;
+}
